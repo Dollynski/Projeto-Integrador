@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex; /* Usa flexbox para organizar o layout principal */
+    min-height: 100vh; /* Ocupa 100% da altura da viewport */
+    
+}
+
+header {
+    width: 260px; /* Largura fixa do header (barra lateral) */
+    background-color: #1B1B1B; /* Cor de fundo */
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); /* Sombra para destaque */
+    display: flex; /* Permite alinhar o conteúdo interno do header */
+    flex-direction: column; /* Os itens dentro do header ficarão em coluna */
+}
+
+header h1 {
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+.menu {
+    list-style-type: none; /* Remove marcadores da lista */
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin: 10px 0; /* Espaçamento entre itens do menu */
+}
+
+main {
+    flex-grow: 1; /* O main ocupa o restante do espaço disponível */
+    padding: 20px; /* Espaçamento interno do conteúdo principal */
+    background-color: white; /* Cor de fundo para destaque do conteúdo */
+}
+
+h2 {
+    color: #333;
+}
